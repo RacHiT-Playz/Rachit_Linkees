@@ -8,53 +8,47 @@ const items = [
     title: "Website",
     subtitle: "Look at my work!",
     type: CHANNEL_TYPES.WEBSITE,
-    link: "https://sagniksahoo.codes" //your personal website or portfolio  link
+    link: "https://techkingrachit.netlify.app" //your personal website or portfolio  link
   },
   {
     title: "GitHub",
-    subtitle: "@heysagnik | 🏡 to all my open-source projects",
+    subtitle: "@RachitPlayz  | 🏡 to all my open-source projects",
     type: CHANNEL_TYPES.GITHUB,
-    link: "https://github.com/heysagnik" //Github Profile link
+    link: "https://github.com/RacHiT-Playz" //Github Profile link
   },
   {
     title: "Instagram",
-    subtitle: "@heysagnik |  Shots of my life 🙂",
+    subtitle: "@wtf.rxchit_ |  Shots of my life 🙂",
     type: CHANNEL_TYPES.INSTAGRAM,
-    link: "https://instagram.com/heysagnik" //instagram profile link
+    link: "https://instagram.com/wtf.rxchit_" //instagram profile link
   },
   {
     title: "Twitter",
-    subtitle: "@heysagnik | 😉",
+    subtitle: "@stfu_rachit | 😉",
     type: CHANNEL_TYPES.TWITTER,
-    link: "https://twitter.com/heysagnik" // twitter profile link
-  },
-  {
-    title: "LinkedIn",
-    subtitle: "Know more about my profession 👨‍💼",
-    type: CHANNEL_TYPES.LINKEDIN,
-    link: "https://www.linkedin.com/in/heysagnik/" // linkedin
+    link: "https://twitter.com/stfu_rachit" // twitter profile link
   },
   {
     title: "YouTube",
-    subtitle: "CODER SAGNIK | Official channel of mine",
+    subtitle: "stfu_rachit",
     type: CHANNEL_TYPES.YOUTUBE,
-    link: "https://www.youtube.com/channel/UCOUa9hvd4sJWQWQRIQctbSg" //youtube channel link
+    link: "https://www.youtube.com/channel/UCyojJPz_MVutILrLqNuduTw" //youtube channel link
   },
 
   {
     title: "Dribbble",
-    subtitle: "@virtuonic | shots of dezigns ",
+    subtitle: "@rachitxd | shots of dezigns ",
     type: CHANNEL_TYPES.DRIBBLE,
-    link: "https://dribbble.com/virtuonic" // Dribbble profile link
+    link: "https://dribbble.com/rachitxd" // Dribbble profile link
   },
   {
     title: "Telegram",
-    subtitle: "@heysagnik | Chat with me instantly ",
+    subtitle: "@stfu_rachit | Chat with me instantly ",
     type: CHANNEL_TYPES.TELEGRAM,
-    link: "https://telegram.me/heysagnik" //Telegram Pofile
+    link: "https://telegram.me/stfu_rachit" //Telegram Pofile
   }
 ];
 
 export default function App() {
-  return <Linkees cardItems={items} name="Parth" headerAvatar={Avatar} />;
+  return <Linkees cardItems={items} name="Rachit.!" headerAvatar={Avatar} />;
 }
